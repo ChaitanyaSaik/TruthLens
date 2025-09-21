@@ -8,6 +8,7 @@
 **Team:** The Sweat and Success
 <br>
 **Team Leader:** Chaitanya Sai Kurapati
+**Demo Link:** https://truthlens-gwnbhpedzgg8nnwgmzemzi.streamlit.app/
 
 ---
 
