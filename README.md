@@ -5,9 +5,9 @@
 [![Framework](https://img.shields.io/badge/Framework-Streamlit-ff69b4)](https://streamlit.io/)
 [![AI Model](https://img.shields.io/badge/AI%20Model-Gemini%201.5%20Flash-purple)](https://deepmind.google/technologies/gemini/)
 
-[cite_start]**Team:** The Sweat and Success [cite: 5]
+**Team:** The Sweat and Success [cite: 5]
 <br>
-[cite_start]**Team Leader:** Chaitanya Sai Kurapati [cite: 6]
+**Team Leader:** Chaitanya Sai Kurapati [cite: 6]
 
 ---
 
