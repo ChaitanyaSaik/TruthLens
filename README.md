@@ -8,56 +8,57 @@
 **Team:** The Sweat and Success
 <br>
 **Team Leader:** Chaitanya Sai Kurapati
+<br>
 **Demo Link:** https://truthlens-gwnbhpedzgg8nnwgmzemzi.streamlit.app/
 
 ---
 
 ## 📄 Overview
 
-[cite_start]TruthLens is an AI-powered toolkit designed to help users navigate the complex modern information landscape by detecting misinformation in real time[cite: 11]. [cite_start]Developed for the Google GenAI Exchange Hackathon [cite: 3, 10][cite_start], this prototype leverages the power of the Google Gemini LLM to analyze news articles, website credibility, images, and manipulative language without the need for traditional dataset training[cite: 14, 22]. [cite_start]Its core mission is to empower users by not just classifying content, but also explaining *why* it might be misleading and guiding them toward verified, trustworthy sources[cite: 13, 24].
+TruthLens is an AI-powered toolkit designed to help users navigate the complex modern information landscape by detecting misinformation in real time. Developed for the Google GenAI Exchange Hackathon, this prototype leverages the power of the Google Gemini LLM to analyze news articles, website credibility, images, and manipulative language without the need for traditional dataset training.Its core mission is to empower users by not just classifying content, but also explaining *why* it might be misleading and guiding them toward verified, trustworthy sources.
 
 ## ✨ Key Features
 
 TruthLens is a multi-functional platform offering a suite of specialized tools:
 
 * **📝 Article Analysis:**
-    * [cite_start]Paste a full news article to receive an instant analysis[cite: 12].
-    * [cite_start]The tool classifies the content as `REAL`, `FAKE`, or `MISLEADING`[cite: 13, 29].
-    * [cite_start]It provides a confidence score for its classification and a detailed explanation of its reasoning[cite: 32].
+    * Paste a full news article to receive an instant analysis.
+    * The tool classifies the content as `REAL`, `FAKE`, or `MISLEADING`.
+    * It provides a confidence score for its classification and a detailed explanation of its reasoning.
 
 * **🌐 Source Credibility Checker:**
-    * [cite_start]Enter a news website URL to evaluate the source's reputation[cite: 12, 61].
+    * Enter a news website URL to evaluate the source's reputation.
     * The tool returns a credibility rating (`Highly Credible`, `Mixed Credibility`, `Not Credible`) and a summary covering reputation, potential bias, and ownership.
 
 * **🖼️ Image Authenticity Scan:**
-    * [cite_start]Upload an image to check for misleading context or digital manipulation[cite: 12, 63].
+    * Upload an image to check for misleading context or digital manipulation.
     * The AI, acting as a visual forensics expert, analyzes if the image has been used in misinformation campaigns and assesses its likely origin and context.
 
 * **🎯 Bias & Propaganda Analyzer:**
-    * [cite_start]Paste any text to scan its language for manipulative techniques[cite: 65].
+    * Paste any text to scan its language for manipulative techniques.
     * The tool identifies and quotes examples of emotional language, ad hominem attacks, loaded questions, false dichotomies, and other propaganda techniques.
 
 ## 🛠️ Technology Stack
 
 The project is built with a modern, scalable, and efficient technology stack:
 
-* [cite_start]**AI Engine:** Google Gemini LLM [cite: 92]
-* [cite_start]**Frontend:** Streamlit [cite: 90]
-* [cite_start]**Programming Language:** Python [cite: 94]
+* **AI Engine:** Google Gemini LLM
+* **Frontend:** Streamlit
+* **Programming Language:** Python 
 * **Core Libraries:**
-    * [cite_start]`google-generativeai`[cite: 98]: The official Python SDK for the Gemini API.
+    * `google-generativeai`: The official Python SDK for the Gemini API.
     * `Pillow` (as `PIL` in `app.py`): For image processing.
-    * [cite_start]`streamlit`[cite: 1]: For building the web application interface.
-* [cite_start]**Deployment:** Designed for local hosting or deployment on Streamlit Cloud[cite: 99].
+    * `streamlit`: For building the web application interface.
+* **Deployment:** Designed for local hosting or deployment on Streamlit Cloud.
 
 ## 🏗️ Architecture
 
 The application follows a simple yet powerful architecture:
 
-1.  [cite_start]**User Interface (Streamlit):** The user provides input—an article, URL, or image—through the clean web interface[cite: 74].
-2.  [cite_start]**Backend Orchestrator (`app.py`):** The Streamlit application code acts as the orchestrator[cite: 76]. It receives the user input and constructs a specific, detailed prompt.
-3.  [cite_start]**Gemini LLM API:** The prompt and data are sent to the Gemini LLM API, which performs the core analysis and returns the structured output[cite: 82].
-4.  [cite_start]**Output to User:** The backend parses the AI's response and presents the final results—classification, confidence scores, explanations, and bias detection—to the user in an easy-to-understand format[cite: 81, 86].
+1.  **User Interface (Streamlit):** The user provides input—an article, URL, or image—through the clean web interface.
+2.  **Backend Orchestrator (`app.py`):** The Streamlit application code acts as the orchestrator. It receives the user input and constructs a specific, detailed prompt.
+3.  **Gemini LLM API:** The prompt and data are sent to the Gemini LLM API, which performs the core analysis and returns the structured output.
+4.  **Output to User:** The backend parses the AI's response and presents the final results—classification, confidence scores, explanations, and bias detection—to the user in an easy-to-understand format.
 
 
 
