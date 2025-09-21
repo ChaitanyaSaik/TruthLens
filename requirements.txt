@@ -1,0 +1,7 @@
+pip install streamlit
+pip install PIPImage
+pip install pandas
+pip install numpy
+pip install os
+pip install google.generativeai
+pip install json
